@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 10px;
+  background-color: #2b90ca;
+}
+.todos,
+.posts {
+  margin: 0 auto;
+}
+.todo,
+.post {
+  border: 3px solid #283611;
+  color: #283611;
+  border-radius: 5px;
+  padding: 7px;
+  margin: 10px 0;
+  background-color: #fefae0;
+}
+.todoDetailCard,
+.postDetailCard {
+  border: 3px solid #283611;
+  color: #283611;
+  border-radius: 5px;
+  padding: 7px;
+  margin: 10px 0;
+  background-color: #fefae0;
+}
+.success {
+  color: green;
+}
+.un_success {
+  color: red;
+}
